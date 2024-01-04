@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="./form-style.css/form-style.css"
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="form">
+        <div class="title-text">
+          <h1>Christmas Fundraiser Dinner</h1>
+          <br />
+          <br />
+          <p>
+            Get your tickets for our annual fundraiser dinner. Hurry, we are in
+            short supply!
+          </p>
+          <div class="line">
+            .............................................................................................................................................
+          </div>
+        </div>
+        <div class="form-inner">
+          <div class="form-options">
+            <label for="name">Name <span>*</span></label>
+            <input type="text" id="name" required />
+            <input type="text" class="name" required />
+            <div>
+              <h4 class="first">First</h4>
+              <h4 class="last">Last</h4>
+            </div>
+          </div>
+          <div class="form-options">
+            <label for="email">Email <span>*</span></label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="form-options phone-input">
+            <label for="phone">Phone <span>*</span> </label>
+            <input type="text" id="phone" required />
+            <input type="text" required />
+            <input type="text" required />
+            <div class="hashtag">
+              <p>###</p>
+              <p>###</p>
+              <p>####</p>
+            </div>
+          </div>
+          <div class="form-options terms">
+            <label for="terms">Terms <span>*</span></label>
+            <input type="checkbox" id="terms" required />
+            <label for="terms">i accept the terms and conditions</label>
+          </div>
+          <div class="form-options quantity">
+            <label for="quantity">Quantity <span>*</span></label>
+            <input type="checkbox" id="quantity" required />
+            <label for="quantity">Dinner Ticket $30.00 USD</label>
+          </div>
+          <div class="form-options">
+            <select name="number" id="number">
+              <option value="one">1</option>
+              <option value="two">2</option>
+              <option value="three">3</option>
+              <option value="four">4</option>
+              <option value="five">5</option>
+            </select>
+            <div class="total">
+              <p>Total <span>$30.00</span></p>
+              <hr />
+              <div class="under-total">
+                <p>1 <span>$30.00</span></p>
+              </div>
+            </div>
+            <div class="button">
+              <input type="button" value="PURCHASE" />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
